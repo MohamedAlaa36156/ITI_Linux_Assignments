@@ -1,0 +1,23 @@
+/sys/devices/platform/i8042/serio0/input/input3/input3::numlock/trigger:none usb-gadget usb-host rfkill-any rfkill-none kbd-scrolllock [kbd-numlock] kbd-capslock kbd-kanalock kbd-shiftlock kbd-altgrlock kbd-ctrllock kbd-altlock kbd-shiftllock kbd-shiftrlock kbd-ctrlllock kbd-ctrlrlock ADP1-online BAT1-charging-or-full BAT1-charging BAT1-full BAT1-charging-blink-full-solid disk-activity disk-read disk-write ide-disk mtd nand-disk cpu cpu0 cpu1 cpu2 cpu3 cpu4 cpu5 cpu6 cpu7 panic rc-feedback mmc0 rfkill0 rfkill1 audio-mute audio-micmute bluetooth-power hci0-power rfkill2 phy0rx phy0tx phy0assoc phy0radio rfkill3
+/sys/devices/platform/i8042/serio0/input/input3/input3::capslock/trigger:none usb-gadget usb-host rfkill-any rfkill-none kbd-scrolllock kbd-numlock [kbd-capslock] kbd-kanalock kbd-shiftlock kbd-altgrlock kbd-ctrllock kbd-altlock kbd-shiftllock kbd-shiftrlock kbd-ctrlllock kbd-ctrlrlock ADP1-online BAT1-charging-or-full BAT1-charging BAT1-full BAT1-charging-blink-full-solid disk-activity disk-read disk-write ide-disk mtd nand-disk cpu cpu0 cpu1 cpu2 cpu3 cpu4 cpu5 cpu6 cpu7 panic rc-feedback mmc0 rfkill0 rfkill1 audio-mute audio-micmute bluetooth-power hci0-power rfkill2 phy0rx phy0tx phy0assoc phy0radio rfkill3
+/sys/devices/platform/i8042/serio0/input/input3/input3::scrolllock/trigger:none usb-gadget usb-host rfkill-any rfkill-none [kbd-scrolllock] kbd-numlock kbd-capslock kbd-kanalock kbd-shiftlock kbd-altgrlock kbd-ctrllock kbd-altlock kbd-shiftllock kbd-shiftrlock kbd-ctrlllock kbd-ctrlrlock ADP1-online BAT1-charging-or-full BAT1-charging BAT1-full BAT1-charging-blink-full-solid disk-activity disk-read disk-write ide-disk mtd nand-disk cpu cpu0 cpu1 cpu2 cpu3 cpu4 cpu5 cpu6 cpu7 panic rc-feedback mmc0 rfkill0 rfkill1 audio-mute audio-micmute bluetooth-power hci0-power rfkill2 phy0rx phy0tx phy0assoc phy0radio rfkill3
+/sys/devices/pci0000:00/0000:00:1f.2/ata1/host1/scsi_host/host1/link_power_management_policy:med_power_with_dipm
+/sys/devices/pci0000:00/0000:00:1f.2/ata6/host6/scsi_host/host6/link_power_management_policy:med_power_with_dipm
+/sys/devices/pci0000:00/0000:00:1f.2/ata4/host4/scsi_host/host4/link_power_management_policy:med_power_with_dipm
+/sys/devices/pci0000:00/0000:00:1f.2/ata2/host2/scsi_host/host2/link_power_management_policy:med_power_with_dipm
+/sys/devices/pci0000:00/0000:00:1f.2/ata5/host5/scsi_host/host5/link_power_management_policy:med_power_with_dipm
+/sys/devices/pci0000:00/0000:00:1f.2/ata3/host3/scsi_host/host3/link_power_management_policy:med_power_with_dipm
+/sys/devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1.3/1-1.3:1.0/rtsx_usb_sdmmc.10.auto/leds/mmc0::/trigger:none usb-gadget usb-host rfkill-any rfkill-none kbd-scrolllock kbd-numlock kbd-capslock kbd-kanalock kbd-shiftlock kbd-altgrlock kbd-ctrllock kbd-altlock kbd-shiftllock kbd-shiftrlock kbd-ctrlllock kbd-ctrlrlock ADP1-online BAT1-charging-or-full BAT1-charging BAT1-full BAT1-charging-blink-full-solid disk-activity disk-read disk-write ide-disk mtd nand-disk cpu cpu0 cpu1 cpu2 cpu3 cpu4 cpu5 cpu6 cpu7 panic rc-feedback [mmc0] rfkill0 rfkill1 audio-mute audio-micmute bluetooth-power hci0-power rfkill2 phy0rx phy0tx phy0assoc phy0radio rfkill3
+/sys/devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.5/2-1.5:1.0/0003:2047:0855.0001/HID-SENSOR-2000e2.9.auto/feature-2-200319/feature-2-200319-name:property-power-state
+/sys/devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.5/2-1.5:1.0/0003:2047:0855.0001/HID-SENSOR-2000e1.8.auto/feature-2-200319/feature-2-200319-name:property-power-state
+/sys/devices/system/cpu/hotplug/states:213: thermal/intel_powerclamp:online
+/sys/devices/system/cpu/hotplug/states:215: powercap/rapl:online
+/sys/devices/system/cpu/cpufreq/policy2/scaling_available_governors:conservative ondemand userspace powersave performance schedutil 
+/sys/devices/system/cpu/cpufreq/policy0/scaling_available_governors:conservative ondemand userspace powersave performance schedutil 
+/sys/devices/system/cpu/cpufreq/policy3/scaling_available_governors:conservative ondemand userspace powersave performance schedutil 
+/sys/devices/system/cpu/cpufreq/policy1/scaling_available_governors:conservative ondemand userspace powersave performance schedutil 
+/sys/devices/virtual/thermal/thermal_zone2/available_policies:power_allocator user_space step_wise bang_bang fair_share 
+/sys/devices/virtual/thermal/thermal_zone0/available_policies:power_allocator user_space step_wise bang_bang fair_share 
+/sys/devices/virtual/thermal/cooling_device4/type:intel_powerclamp
+/sys/devices/virtual/thermal/thermal_zone1/available_policies:power_allocator user_space step_wise bang_bang fair_share 
+/sys/module/pcie_aspm/parameters/policy:[default] performance powersave powersupersave 
