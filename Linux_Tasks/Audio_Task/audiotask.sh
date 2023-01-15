@@ -4,7 +4,7 @@ while :
 do
 
 
-mpg123 *Song you want to repeat*.mp3
+mpg123 *Song you want to play*.mp3
 
 
 
